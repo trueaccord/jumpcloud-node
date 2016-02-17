@@ -1,0 +1,23 @@
+{
+  "name": "jumpcloud-node",
+  "description": "Interfaces with the JumpCloud REST API via Node",
+  "author": "Jon Davis <jdavis@trueaccord.com>",
+  "version": "0.1.0",
+  "tags": [
+    "jumpcloud",
+    "ldap"
+  ],
+  "dependencies": {
+    "request":"2.69.X"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/trueaccord/jumpcloud-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/trueaccord/jumpcloud-node/issues"
+  },
+  "main": "lib/jumpcloud.js",
+  "engines": "node >= 0.10.40",
+  "license": "Apache-2.0"
+}

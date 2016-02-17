@@ -1,0 +1,37 @@
+
+
+# Search for a user
+curl \
+-d '{"filter": [{"username" : "jdavis"}]}' \
+-X 'POST' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H "x-api-key: XXXXXXXXXapikeyXXXXXXXXX" \
+"https://console.jumpcloud.com/api/search/systemusers"
+
+# Create a user
+curl \
+-d '{"email" : "fuser@testdomain.com", "username" : "fuser", "password": "flimflam1", "firstname": "Fake", "lastname": "User", "tags" : ["All Employee"]}' \
+-X 'POST' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H "x-api-key: XXXXXXXXXapikeyXXXXXXXXX" \
+"https://console.jumpcloud.com/api/systemusers"
+
+# Update just a users password
+curl \
+-d '{ "password": "purple1" }' \
+-X 'PUT' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H "x-api-key: XXXXXXXXXapikeyXXXXXXXXX" \
+"https://console.jumpcloud.com/api/systemusers/XXXXXuseridXXXXX"
+
+# Update other profile information, like lastname
+curl \
+-d '{ "lastname": "VeryLast" }' \
+-X 'PUT' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H "x-api-key: XXXXXXXXXapikeyXXXXXXXXX" \
+"https://console.jumpcloud.com/api/systemusers/XXXXXuseridXXXXX"
