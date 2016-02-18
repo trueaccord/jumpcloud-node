@@ -4,6 +4,10 @@ A [JumpCloud REST API](https://github.com/TheJumpCloud/JumpCloudAPI) client.
 ## About
 This project is still in its very earliest stages. However the goal is to provide a useable nodeJS helper to operate against the [JumpCloud](https://jumpcloud.com/) API for administration. Note there is a separate [Authentication and Authorization API](http://support.jumpcloud.com/knowledgebase/articles/455570) which is not covered by this repo.
 
+[![NPM](https://nodei.co/npm/jumpcloud-node.png?compact=true)](https://nodei.co/npm/jumpcloud-node/)
+
+[![Dependency Status](https://david-dm.org/trueaccord/jumpcloud-node.svg)](https://david-dm.org/trueaccord/jumpcloud-node)
+[![GitHub issues](https://img.shields.io/github/issues/trueaccord/jumpcloud-node.svg)](https://github.com/trueaccord/jumpcloud-node/issues)
 ## Install
 ```bash
 $ npm install jumpcloud-node
@@ -22,7 +26,7 @@ jc.getAllUsers(function(x){
     console.log("Username/ID: " + x.results[a].username + " / " +  x.results[a]._id);
   }
 });
-````
+```
 
 ## Examples
 Coming soon
