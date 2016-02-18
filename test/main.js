@@ -19,7 +19,7 @@ describe('jc users', function() {
     });
     it('should return at least 1 record', function (done) {
       jc.getAllUsers(function(x){
-        x.results.should.have.length(1);
+        x.results.should.have.length.of.at.least(1);
         done();
       });
     });

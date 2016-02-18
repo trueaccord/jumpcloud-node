@@ -4,13 +4,15 @@ A [JumpCloud REST API](https://github.com/TheJumpCloud/JumpCloudAPI) client.
 ## About
 This project is still in its very earliest stages. However the goal is to provide a useable nodeJS helper to operate against the [JumpCloud](https://jumpcloud.com/) API for administration. Note there is a separate [Authentication and Authorization API](http://support.jumpcloud.com/knowledgebase/articles/455570) which is not covered by this repo.
 
-[![NPM](https://nodei.co/npm/jumpcloud-node.png?compact=true)](https://nodei.co/npm/jumpcloud-node/)
+[![NPM](https://nodei.co/npm/jumpcloud.png?compact=true)](https://nodei.co/npm/jumpcloud/)
 
+[![Build Status](https://travis-ci.org/trueaccord/jumpcloud-node.svg?branch=master)](https://travis-ci.org/trueaccord/jumpcloud-node)
 [![Dependency Status](https://david-dm.org/trueaccord/jumpcloud-node.svg)](https://david-dm.org/trueaccord/jumpcloud-node)
 [![GitHub issues](https://img.shields.io/github/issues/trueaccord/jumpcloud-node.svg)](https://github.com/trueaccord/jumpcloud-node/issues)
+
 ## Install
 ```bash
-$ npm install jumpcloud-node
+$ npm install jumpcloud
 ```
 
 ## Quickstart
@@ -37,7 +39,7 @@ $ env APIKEY=XXXXapikeyXXXX mocha test/main.js
 Coming soon
 
 ## Contributors
-Originally authored by [@ShakataGaNai](https://github.com/shakataganai)
+Authored by [@ShakataGaNai](https://github.com/shakataganai)
 
 ## License
 See [LICENSE](LICENSE) file.
