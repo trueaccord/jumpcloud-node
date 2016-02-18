@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "0.10"
+env:
+sudo: false
+script: "npm run test"
+notifications:
+    email:
+        recipients:
+          - jdavis@trueaccord.com
+        on_success: always
+        on_failure: always

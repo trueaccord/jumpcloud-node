@@ -28,6 +28,11 @@ jc.getAllUsers(function(x){
 });
 ```
 
+## Testing
+```bash
+$ env APIKEY=XXXXapikeyXXXX mocha test/main.js
+```
+
 ## Examples
 Coming soon
 
