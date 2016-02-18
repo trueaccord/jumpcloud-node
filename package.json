@@ -2,7 +2,7 @@
   "name": "jumpcloud-node",
   "description": "Interfaces with the JumpCloud REST API via Node",
   "author": "Jon Davis <jdavis@trueaccord.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "tags": [
     "jumpcloud",
     "ldap"
@@ -19,5 +19,26 @@
   },
   "main": "lib/jumpcloud.js",
   "engines": "node >= 0.10.40",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "npm run lint && echo no test yet",
+    "lint": "jshint lib/*.js"
+  },
+  "jshintConfig": {
+    "boss": true,
+    "node": true,
+    "strict": true,
+    "newcap": false,
+    "undef": true,
+    "unused": true,
+    "onecase": true,
+    "lastsemic": true,
+    "indent": 2,
+    "globals": {
+      "escape": true,
+      "describe": true,
+      "it": true,
+      "before": true
+    }
+  }
 }
