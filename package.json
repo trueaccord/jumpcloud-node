@@ -2,10 +2,12 @@
   "name": "jumpcloud",
   "description": "Interfaces with the JumpCloud REST API via Node",
   "author": "Jon Davis <jdavis@trueaccord.com>",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "tags": [
     "jumpcloud",
-    "ldap"
+    "ldap",
+    "sso",
+    "security"
   ],
   "dependencies": {
     "request": "2.69.x"
