@@ -1,0 +1,6 @@
+[
+  {"email" : "one@test.local", "username" : "one", "firstname": "Chuck", "lastname": "Bartowski", "sudo": true },
+  {"email" : "two@test.local", "username" : "two", "password": "orangeorange1", "firstname": "Sarah", "lastname": "Walker", "tags" : ["CIA","Castle"]},
+  {"email" : "three@test.local", "username" : "three", "password": "guns357", "firstname": "John", "lastname": "Casey", "tags" : ["NSA","Castle"]},
+  {"email" : "four@test.local", "username" : "four", "password": "medic2love", "firstname": "Morgan", "lastname": "Grimes", "tags" : ["BuyMore"], "unix_uid": 9001, "unix_guid":9001}
+]

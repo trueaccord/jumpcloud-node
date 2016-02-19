@@ -32,7 +32,7 @@ jc.getAllUsers(function(x){
 
 ## Testing
 ```bash
-$ env APIKEY=XXXXapikeyXXXX mocha test/main.js
+$ env APIKEY=XXXXapikeyXXXX npm run test
 ```
 
 ## Examples
