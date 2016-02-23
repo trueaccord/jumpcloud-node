@@ -30,13 +30,15 @@ jc.getAllUsers(function(x){
 });
 ```
 
+## Documentation & Examples
+See [FUNCTIONS](FUNCTIONS.md) file for documentation of all functions
+
+Examples coming soon
+
 ## Testing
 ```bash
 $ env APIKEY=XXXXapikeyXXXX npm run test
 ```
-
-## Examples
-Coming soon
 
 ## Contributors
 Authored by [@ShakataGaNai](https://github.com/shakataganai)

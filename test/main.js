@@ -68,7 +68,6 @@ describe('jumpcloud API testing',function() {
           var doneCount = 0;
           for(var a=0;a<res.length;a++){
             if(/^(.*)test\.local$/.test(res[a].email)){
-              //console.log("Deleting "+res[a].firstname);
               jc.deleteUser(res[a]._id,function(z){
                 z.should.have.property('id');
                 doneCount++;

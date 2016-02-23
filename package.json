@@ -29,7 +29,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "test": "npm run lint && mocha --timeout 5000 --slow 1000 test/main.js",
-    "lint": "jshint lib/*.js"
+    "lint": "jshint lib/*.js",
+    "docs": "documentation -f md -o FUNCTIONS.md"
   },
   "jshintConfig": {
     "boss": true,
