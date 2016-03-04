@@ -2,7 +2,7 @@
   "name": "jumpcloud",
   "description": "Interfaces with the JumpCloud REST API via Node",
   "author": "Jon Davis <jdavis@trueaccord.com>",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "tags": [
     "jumpcloud",
     "ldap",
